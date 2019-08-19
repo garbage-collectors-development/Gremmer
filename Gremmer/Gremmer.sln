@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gremmer.Server.Data", "Grem
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gremmer.Server.Services", "Gremmer.Server.Services\Gremmer.Server.Services.csproj", "{546795C4-9234-4167-B963-A4730F461DA7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gremmer.Desktop", "Gremmer.Desktop", "{154242E7-1792-47D3-AF6A-849C83633DB0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gremmer.Server", "Gremmer.Server", "{2A959759-E534-480B-92F0-DB21F64F4CB4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,6 +46,13 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{092FD302-7150-4C0F-94C4-770077B7E55A} = {154242E7-1792-47D3-AF6A-849C83633DB0}
+		{1F06146B-98BE-4058-BE55-92F20AA5D2FB} = {154242E7-1792-47D3-AF6A-849C83633DB0}
+		{3D415559-CE46-4769-8189-4FDF00D98741} = {2A959759-E534-480B-92F0-DB21F64F4CB4}
+		{7FB623F3-43C2-4679-8FF7-73235DDA481F} = {2A959759-E534-480B-92F0-DB21F64F4CB4}
+		{546795C4-9234-4167-B963-A4730F461DA7} = {2A959759-E534-480B-92F0-DB21F64F4CB4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {67F6D2FF-246C-4A58-A2A4-5CD4B0B9F2A6}
