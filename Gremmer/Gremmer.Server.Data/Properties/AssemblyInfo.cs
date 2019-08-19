@@ -4,7 +4,7 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Gremmer.Server.Host")]
+[assembly: AssemblyTitle("Gremmer.Server.Data")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyCompany("Garbage Collectors")]
 [assembly: AssemblyProduct("Gremmer")]
