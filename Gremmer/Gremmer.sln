@@ -7,15 +7,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gremmer.Desktop.UI", "Gremm
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gremmer.Desktop.Core", "Gremmer.Desktop.Core\Gremmer.Desktop.Core.csproj", "{1F06146B-98BE-4058-BE55-92F20AA5D2FB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gremmer.Server.Host", "Gremmer.Server.Host\Gremmer.Server.Host.csproj", "{3D415559-CE46-4769-8189-4FDF00D98741}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gremmer.Server.Host", "Gremmer.Server.Host\Gremmer.Server.Host.csproj", "{6A9602D9-3ED9-4345-90CA-9655D70A9DE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gremmer.Server.Data", "Gremmer.Server.Data\Gremmer.Server.Data.csproj", "{7FB623F3-43C2-4679-8FF7-73235DDA481F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gremmer.Server.Data", "Gremmer.Server.Data\Gremmer.Server.Data.csproj", "{7FB623F3-43C2-4679-8FF7-73235DDA481F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gremmer.Server.Services", "Gremmer.Server.Services\Gremmer.Server.Services.csproj", "{546795C4-9234-4167-B963-A4730F461DA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gremmer.Server.Services", "Gremmer.Server.Services\Gremmer.Server.Services.csproj", "{546795C4-9234-4167-B963-A4730F461DA7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gremmer.Desktop", "Gremmer.Desktop", "{154242E7-1792-47D3-AF6A-849C83633DB0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gremmer.Server", "Gremmer.Server", "{2A959759-E534-480B-92F0-DB21F64F4CB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gremmer.Shared", "Gremmer.Shared\Gremmer.Shared.csproj", "{587CD084-6C8C-430F-AFAE-2609C358B83D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,10 +33,10 @@ Global
 		{1F06146B-98BE-4058-BE55-92F20AA5D2FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F06146B-98BE-4058-BE55-92F20AA5D2FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F06146B-98BE-4058-BE55-92F20AA5D2FB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3D415559-CE46-4769-8189-4FDF00D98741}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3D415559-CE46-4769-8189-4FDF00D98741}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3D415559-CE46-4769-8189-4FDF00D98741}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3D415559-CE46-4769-8189-4FDF00D98741}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A9602D9-3ED9-4345-90CA-9655D70A9DE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A9602D9-3ED9-4345-90CA-9655D70A9DE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A9602D9-3ED9-4345-90CA-9655D70A9DE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A9602D9-3ED9-4345-90CA-9655D70A9DE3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7FB623F3-43C2-4679-8FF7-73235DDA481F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7FB623F3-43C2-4679-8FF7-73235DDA481F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FB623F3-43C2-4679-8FF7-73235DDA481F}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -43,6 +45,10 @@ Global
 		{546795C4-9234-4167-B963-A4730F461DA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{546795C4-9234-4167-B963-A4730F461DA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{546795C4-9234-4167-B963-A4730F461DA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{587CD084-6C8C-430F-AFAE-2609C358B83D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{587CD084-6C8C-430F-AFAE-2609C358B83D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{587CD084-6C8C-430F-AFAE-2609C358B83D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{587CD084-6C8C-430F-AFAE-2609C358B83D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,7 +56,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{092FD302-7150-4C0F-94C4-770077B7E55A} = {154242E7-1792-47D3-AF6A-849C83633DB0}
 		{1F06146B-98BE-4058-BE55-92F20AA5D2FB} = {154242E7-1792-47D3-AF6A-849C83633DB0}
-		{3D415559-CE46-4769-8189-4FDF00D98741} = {2A959759-E534-480B-92F0-DB21F64F4CB4}
+		{6A9602D9-3ED9-4345-90CA-9655D70A9DE3} = {2A959759-E534-480B-92F0-DB21F64F4CB4}
 		{7FB623F3-43C2-4679-8FF7-73235DDA481F} = {2A959759-E534-480B-92F0-DB21F64F4CB4}
 		{546795C4-9234-4167-B963-A4730F461DA7} = {2A959759-E534-480B-92F0-DB21F64F4CB4}
 	EndGlobalSection
