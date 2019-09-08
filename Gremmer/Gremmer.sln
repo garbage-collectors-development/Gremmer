@@ -17,7 +17,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gremmer.Server", "Gremmer.S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gremmer.Shared", "Gremmer.Shared\Gremmer.Shared.csproj", "{587CD084-6C8C-430F-AFAE-2609C358B83D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gremmer.Server.Services.EntityFramework", "Gremmer.Server.Services.EntityFramework\Gremmer.Server.Services.EntityFramework.csproj", "{A3FAEC71-E79A-4A4F-942E-F379CAEE12FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gremmer.Server.Services.EntityFramework", "Gremmer.Server.Services.EntityFramework\Gremmer.Server.Services.EntityFramework.csproj", "{A3FAEC71-E79A-4A4F-942E-F379CAEE12FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
